@@ -1,0 +1,1640 @@
+[
+  {
+    "tag": "bank-accounts",
+    "method": "GET",
+    "path": "/v3/bank-accounts",
+    "operation_id": "List Bank Accounts V3",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "bank-accounts",
+    "method": "GET",
+    "path": "/v3/bank-accounts/{id}/bank-transactions",
+    "operation_id": "List Bank Transactions V3",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/customers",
+    "operation_id": "List Customers",
+    "summary": "Returns a list of Customers",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "POST",
+    "path": "/customers",
+    "operation_id": "Create Customer",
+    "summary": "Creates a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "DELETE",
+    "path": "/customers/{customer_id}",
+    "operation_id": "Delete a Customer",
+    "summary": "Delete a Customer",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/customers/{customer_id}",
+    "operation_id": "Get Customer by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "PUT",
+    "path": "/customers/{customer_id}",
+    "operation_id": "Update Customer",
+    "summary": "Updates a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "POST",
+    "path": "/customers/{customer_id}/direct_debit_mandate",
+    "operation_id": "Send direct debit authorization to a Customer",
+    "summary": "Send direct debit authorization to a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/customers/{customer_id}/extra_details",
+    "operation_id": "Get Customer's details by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "PUT",
+    "path": "/customers/{customer_id}/set_archived",
+    "operation_id": "Set Customer Archived",
+    "summary": "Sets the archived status for a customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/customers/{customer_id}/vat-percentages",
+    "operation_id": "Get vat percentages for a Customer by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/v1/customers",
+    "operation_id": "List Customers",
+    "summary": "Returns a list of Customers",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "POST",
+    "path": "/v1/customers",
+    "operation_id": "Create Customer",
+    "summary": "Creates a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "DELETE",
+    "path": "/v1/customers/{customer_id}",
+    "operation_id": "Delete a Customer",
+    "summary": "Delete a Customer",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/v1/customers/{customer_id}",
+    "operation_id": "Get Customer by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "PUT",
+    "path": "/v1/customers/{customer_id}",
+    "operation_id": "Update Customer",
+    "summary": "Updates a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "POST",
+    "path": "/v1/customers/{customer_id}/direct_debit_mandate",
+    "operation_id": "Send direct debit authorization to a Customer",
+    "summary": "Send direct debit authorization to a Customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/v1/customers/{customer_id}/extra_details",
+    "operation_id": "Get Customer's details by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "PUT",
+    "path": "/v1/customers/{customer_id}/set_archived",
+    "operation_id": "Set Customer Archived",
+    "summary": "Sets the archived status for a customer",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/v1/customers/{customer_id}/vat-percentages",
+    "operation_id": "Get vat percentages for a Customer by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "customers",
+    "method": "GET",
+    "path": "/v2/customers/{customer_id}/vat-percentages",
+    "operation_id": "Get vat percentages for a Customer by ID V2",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "estimates",
+    "method": "POST",
+    "path": "/v2/estimates",
+    "operation_id": "Create (and optionally send) an Estimate V2",
+    "summary": "Creates (and optionally sends) an Estimate",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "estimates",
+    "method": "PUT",
+    "path": "/v2/estimates/{id}",
+    "operation_id": "Edit Estimate V2",
+    "summary": "Edits an Estimate",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "estimates",
+    "method": "POST",
+    "path": "/v2/estimates/{id}/send",
+    "operation_id": "Send Estimate V2",
+    "summary": "Sends an Estimate",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "expenses",
+    "method": "GET",
+    "path": "/v3/expenses",
+    "operation_id": "List Expenses",
+    "summary": "List Expenses",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "expenses",
+    "method": "POST",
+    "path": "/v3/expenses",
+    "operation_id": "Create an Expense",
+    "summary": "Create an Expense",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "expenses",
+    "method": "GET",
+    "path": "/v3/expenses/id/{id}",
+    "operation_id": "Get Expense by ID",
+    "summary": "Get Expense by ID",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "expenses",
+    "method": "POST",
+    "path": "/v3/expenses/id/{id}",
+    "operation_id": "Update an Expense",
+    "summary": "Update an Expense",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "expenses",
+    "method": "POST",
+    "path": "/v3/expenses/id/{id}/receipt",
+    "operation_id": "Attach Receipt to Expense",
+    "summary": "Attach a Receipt to an Expense",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "files",
+    "method": "GET",
+    "path": "/files/put_url",
+    "operation_id": "Upload URL for attachments",
+    "summary": "Request an upload URL for attachments",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "files",
+    "method": "GET",
+    "path": "/v1/files/put_url",
+    "operation_id": "Upload URL for attachments",
+    "summary": "Request an upload URL for attachments",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "inbox",
+    "method": "POST",
+    "path": "/inbox/images",
+    "operation_id": "Upload receipt",
+    "summary": "Upload images to jortt",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "inbox",
+    "method": "POST",
+    "path": "/v1/inbox/images",
+    "operation_id": "Upload receipt",
+    "summary": "Upload images to jortt",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices",
+    "operation_id": "List Invoices",
+    "summary": "Returns a list of Invoices",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/invoices",
+    "operation_id": "Create (and optionally send) an Invoice",
+    "summary": "Creates (and optionally sends) an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "DELETE",
+    "path": "/invoices/{id}",
+    "operation_id": "Delete Invoice by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices/{id}",
+    "operation_id": "Get Invoice by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "PUT",
+    "path": "/invoices/{id}",
+    "operation_id": "Edit Invoice",
+    "summary": "Edits an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/invoices/{id}/copy",
+    "operation_id": "Copy an Invoice",
+    "summary": "Copies an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/invoices/{id}/credit",
+    "operation_id": "Creates (and optionally sends) a credit Invoice",
+    "summary": "Creates (and optionally sends) a credit Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices/{id}/download",
+    "operation_id": "Download Invoice PDF",
+    "summary": "Returns a URL from which the invoice PDF can be downloaded.",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/pdf"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices/{id}/line_item_suggestions",
+    "operation_id": "Get line item suggestions",
+    "summary": "Returns a list of suggested line items",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices/{id}/next_possible_invoice_number",
+    "operation_id": "Get next possible invoice number",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/invoices/{id}/send",
+    "operation_id": "Send Invoice",
+    "summary": "Sends an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/invoices/{id}/send_settings",
+    "operation_id": "Get send settings",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "PUT",
+    "path": "/invoices/{id}/set_labels",
+    "operation_id": "Set invoice labels",
+    "summary": "Sets the labels for a given invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices",
+    "operation_id": "List Invoices",
+    "summary": "Returns a list of Invoices",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v1/invoices",
+    "operation_id": "Create (and optionally send) an Invoice",
+    "summary": "Creates (and optionally sends) an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "DELETE",
+    "path": "/v1/invoices/{id}",
+    "operation_id": "Delete Invoice by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices/{id}",
+    "operation_id": "Get Invoice by ID",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "PUT",
+    "path": "/v1/invoices/{id}",
+    "operation_id": "Edit Invoice",
+    "summary": "Edits an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v1/invoices/{id}/copy",
+    "operation_id": "Copy an Invoice",
+    "summary": "Copies an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v1/invoices/{id}/credit",
+    "operation_id": "Creates (and optionally sends) a credit Invoice",
+    "summary": "Creates (and optionally sends) a credit Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices/{id}/download",
+    "operation_id": "Download Invoice PDF",
+    "summary": "Returns a URL from which the invoice PDF can be downloaded.",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/pdf"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices/{id}/line_item_suggestions",
+    "operation_id": "Get line item suggestions",
+    "summary": "Returns a list of suggested line items",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices/{id}/next_possible_invoice_number",
+    "operation_id": "Get next possible invoice number",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v1/invoices/{id}/send",
+    "operation_id": "Send Invoice",
+    "summary": "Sends an Invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v1/invoices/{id}/send_settings",
+    "operation_id": "Get send settings",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "PUT",
+    "path": "/v1/invoices/{id}/set_labels",
+    "operation_id": "Set invoice labels",
+    "summary": "Sets the labels for a given invoice",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v2/invoices",
+    "operation_id": "Create (and optionally send) an Invoice V2",
+    "summary": "Creates (and optionally sends) an Invoice V2",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "PUT",
+    "path": "/v2/invoices/{id}",
+    "operation_id": "Edit Invoice V2",
+    "summary": "Edits an Invoice V2",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v2/invoices/{id}/line_item_suggestions",
+    "operation_id": "Get line item suggestions",
+    "summary": "Returns a list of suggested line items",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "GET",
+    "path": "/v2/invoices/peppol-scheme-catalog",
+    "operation_id": "Get peppol scheme catalog",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "invoices",
+    "method": "POST",
+    "path": "/v3/invoices",
+    "operation_id": "Create (and optionally send) an Invoice V3",
+    "summary": "Creates (and optionally sends) an Invoice V3 with invoice-level VAT",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "labels",
+    "method": "GET",
+    "path": "/labels",
+    "operation_id": "List labels",
+    "summary": "Returns a list of labels",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "labels",
+    "method": "POST",
+    "path": "/labels",
+    "operation_id": "Create a Label",
+    "summary": "Create a label",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "labels",
+    "method": "GET",
+    "path": "/v1/labels",
+    "operation_id": "List labels",
+    "summary": "Returns a list of labels",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "labels",
+    "method": "POST",
+    "path": "/v1/labels",
+    "operation_id": "Create a Label",
+    "summary": "Create a label",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/ledger_accounts/invoices",
+    "operation_id": "List Invoice Ledger Accounts",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/ledger_accounts/invoices/default",
+    "operation_id": "The default Ledger Account for invoice line items",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/v1/ledger_accounts/invoices",
+    "operation_id": "List Invoice Ledger Accounts",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/v1/ledger_accounts/invoices/default",
+    "operation_id": "The default Ledger Account for invoice line items",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/v3/ledger_accounts/expenses/balance",
+    "operation_id": "getV3LedgerAccountsExpensesBalance",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/v3/ledger_accounts/expenses/cost",
+    "operation_id": "getV3LedgerAccountsExpensesCost",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "ledger_accounts",
+    "method": "GET",
+    "path": "/v3/ledger_accounts/expenses/income",
+    "operation_id": "getV3LedgerAccountsExpensesIncome",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "GET",
+    "path": "/loonjournaalposten",
+    "operation_id": "List Loonjournaalposten",
+    "summary": "Returns a list of Loonjournaalposten",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "POST",
+    "path": "/loonjournaalposten",
+    "operation_id": "Create a Loonjournaalpost",
+    "summary": "Create a Loonjournaalpost",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "DELETE",
+    "path": "/loonjournaalposten/{loonjournaalpost_id}",
+    "operation_id": "Delete a Loonjournaalpost",
+    "summary": "Delete a Loonjournaalpost",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "PUT",
+    "path": "/loonjournaalposten/{loonjournaalpost_id}",
+    "operation_id": "Update a Loonjournaalpost",
+    "summary": "Update a Loonjournaalpost",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "GET",
+    "path": "/v1/loonjournaalposten",
+    "operation_id": "List Loonjournaalposten",
+    "summary": "Returns a list of Loonjournaalposten",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "POST",
+    "path": "/v1/loonjournaalposten",
+    "operation_id": "Create a Loonjournaalpost",
+    "summary": "Create a Loonjournaalpost",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "DELETE",
+    "path": "/v1/loonjournaalposten/{loonjournaalpost_id}",
+    "operation_id": "Delete a Loonjournaalpost",
+    "summary": "Delete a Loonjournaalpost",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "loonjournaalposten",
+    "method": "PUT",
+    "path": "/v1/loonjournaalposten/{loonjournaalpost_id}",
+    "operation_id": "Update a Loonjournaalpost",
+    "summary": "Update a Loonjournaalpost",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "organizations",
+    "method": "GET",
+    "path": "/organizations/me",
+    "operation_id": "Get the organization associated with the api credentials",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "organizations",
+    "method": "GET",
+    "path": "/v1/organizations/me",
+    "operation_id": "Get the organization associated with the api credentials",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/projects",
+    "operation_id": "List Projects",
+    "summary": "Returns a list of Projects",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/projects",
+    "operation_id": "Create Project",
+    "summary": "Creates a Project",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "DELETE",
+    "path": "/projects/{id}",
+    "operation_id": "Delete Project",
+    "summary": "Deletes a Project",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/projects/{id}",
+    "operation_id": "Get Project",
+    "summary": "Returns a Project",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "PUT",
+    "path": "/projects/{id}",
+    "operation_id": "Update Project",
+    "summary": "Updates a Project",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/projects/{id}/invoice",
+    "operation_id": "Invoice Project",
+    "summary": "Creates an invoice based on project line items",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/projects/{id}/line_items",
+    "operation_id": "List Project Line Items",
+    "summary": "Returns a list of Project Line Items",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/projects/{id}/line_items",
+    "operation_id": "Create Project Line item",
+    "summary": "Creates a Project Line Item",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "DELETE",
+    "path": "/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Delete Project Line item",
+    "summary": "Deletes a Project Line item",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Get Project Line Item",
+    "summary": "Returns a Project Line Item",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "PUT",
+    "path": "/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Update Project Line item",
+    "summary": "Updates a Project Line item",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/projects/{id}/line_items/summary",
+    "operation_id": "Get Project Line Item Summary",
+    "summary": "Returns a list of Project Line Item summaries",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/v1/projects",
+    "operation_id": "List Projects",
+    "summary": "Returns a list of Projects",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/v1/projects",
+    "operation_id": "Create Project",
+    "summary": "Creates a Project",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "DELETE",
+    "path": "/v1/projects/{id}",
+    "operation_id": "Delete Project",
+    "summary": "Deletes a Project",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/v1/projects/{id}",
+    "operation_id": "Get Project",
+    "summary": "Returns a Project",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "PUT",
+    "path": "/v1/projects/{id}",
+    "operation_id": "Update Project",
+    "summary": "Updates a Project",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/v1/projects/{id}/invoice",
+    "operation_id": "Invoice Project",
+    "summary": "Creates an invoice based on project line items",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/v1/projects/{id}/line_items",
+    "operation_id": "List Project Line Items",
+    "summary": "Returns a list of Project Line Items",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "POST",
+    "path": "/v1/projects/{id}/line_items",
+    "operation_id": "Create Project Line item",
+    "summary": "Creates a Project Line Item",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "DELETE",
+    "path": "/v1/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Delete Project Line item",
+    "summary": "Deletes a Project Line item",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/v1/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Get Project Line Item",
+    "summary": "Returns a Project Line Item",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "PUT",
+    "path": "/v1/projects/{id}/line_items/{line_item_id}",
+    "operation_id": "Update Project Line item",
+    "summary": "Updates a Project Line item",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "projects",
+    "method": "GET",
+    "path": "/v1/projects/{id}/line_items/summary",
+    "operation_id": "Get Project Line Item Summary",
+    "summary": "Returns a list of Project Line Item summaries",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/reports/summaries/balance",
+    "operation_id": "Dashboard balance",
+    "summary": "Returns key organization balances for the current date",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/reports/summaries/btw",
+    "operation_id": "Dashboard btw",
+    "summary": "Returns a list of summarized btw periods",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/reports/summaries/cash_and_bank",
+    "operation_id": "Dashboard cash and bank",
+    "summary": "Returns a summary of bank accounts, cash and liquid assets",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/reports/summaries/invoices",
+    "operation_id": "Dashboard invoices",
+    "summary": "Returns a summary of invoices for the current year",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/reports/summaries/profit_and_loss",
+    "operation_id": "Dashboard profit and loss",
+    "summary": "Returns a summary of profit and loss for the current year",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/v1/reports/summaries/balance",
+    "operation_id": "Dashboard balance",
+    "summary": "Returns key organization balances for the current date",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/v1/reports/summaries/btw",
+    "operation_id": "Dashboard btw",
+    "summary": "Returns a list of summarized btw periods",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/v1/reports/summaries/cash_and_bank",
+    "operation_id": "Dashboard cash and bank",
+    "summary": "Returns a summary of bank accounts, cash and liquid assets",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/v1/reports/summaries/invoices",
+    "operation_id": "Dashboard invoices",
+    "summary": "Returns a summary of invoices for the current year",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "reports",
+    "method": "GET",
+    "path": "/v1/reports/summaries/profit_and_loss",
+    "operation_id": "Dashboard profit and loss",
+    "summary": "Returns a summary of profit and loss for the current year",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "tradenames",
+    "method": "GET",
+    "path": "/tradenames",
+    "operation_id": "List tradenames",
+    "summary": "Returns a list of tradenames",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "tradenames",
+    "method": "GET",
+    "path": "/v1/tradenames",
+    "operation_id": "List tradenames",
+    "summary": "Returns a list of tradenames",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "v2",
+    "method": "GET",
+    "path": "/v2/estimates",
+    "operation_id": "List Estimates v2",
+    "summary": "Returns a list of Estimates",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "v2",
+    "method": "GET",
+    "path": "/v2/estimates/{id}",
+    "operation_id": "Get Estimate by ID v2",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "v2",
+    "method": "GET",
+    "path": "/v2/estimates/{id}/send_settings",
+    "operation_id": "Get estimate send settings v2",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "v2",
+    "method": "GET",
+    "path": "/v2/invoices",
+    "operation_id": "List Invoices v2",
+    "summary": "Returns a list of Invoices",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  },
+  {
+    "tag": "v2",
+    "method": "GET",
+    "path": "/v2/invoices/{id}",
+    "operation_id": "Get Invoice by ID v2",
+    "summary": "",
+    "consumes": [
+      null
+    ],
+    "produces": [
+      "application/json"
+    ]
+  }
+]

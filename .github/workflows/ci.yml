@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rust: ["1.85.0", "stable"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        toolchain: ${{ matrix.rust }}
+      - name: Rust version
+        run: rustc --version
+      - name: Format
+        run: cargo fmt --check
+      - name: Clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+      - name: Tests
+        run: cargo test --all-targets --all-features
+      - name: Docs
+        run: RUSTDOCFLAGS="-D warnings" cargo doc --all-features --no-deps
+      - name: Package
+        run: cargo package --allow-dirty
+      - name: Publish dry-run
+        run: cargo publish --dry-run --allow-dirty
