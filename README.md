@@ -131,6 +131,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 - [Error Handling](docs/error-handling.md)
 - [Versioning Policy](docs/versioning.md)
 - [Endpoint Coverage Matrix](docs/endpoint-coverage.md)
+- [Live Examples](examples/README.md)
+- [Live Testing Guide](docs/live-testing.md)
 - [Pinned OpenAPI Snapshot](docs/openapi/jortt-swagger-2026-05-05.json)
 
 ## Stability

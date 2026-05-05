@@ -8,13 +8,14 @@ description = "Async Rust SDK for the Jortt API with typed modules, hybrid OAuth
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/xylex-group/jortt-rs"
-homepage = "https://github.com/floris/jortt-rs"
+homepage = "https://github.com/xylex-group/jortt-rs"
 documentation = "https://docs.rs/jortt"
 keywords = ["jortt", "api", "sdk", "accounting", "oauth2"]
 categories = ["api-bindings", "authentication", "network-programming"]
 include = [
   "src/**/*",
   "tests/**/*",
+  "examples/**/*",
   "docs/**/*",
   "README.md",
   "LICENSE",

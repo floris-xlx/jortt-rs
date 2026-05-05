@@ -192,7 +192,7 @@ async fn request_builder_is_the_single_path_for_generated_methods() {
 
 #[test]
 fn error_builder_produces_structured_errors() {
-    let api_payload = ApiError {
+    let api_payload: ApiError = ApiError {
         code: 422,
         key: "params.invalid".to_string(),
         message: "invalid params".to_string(),

@@ -183,8 +183,8 @@ impl OAuthClient {
         if response.status().is_success() {
             Ok(response.json::<TokenSet>().await?)
         } else {
-            let status = response.status();
-            let body = response.text().await.unwrap_or_default();
+            let status: reqwest::StatusCode = response.status();
+            let body: String = response.text().await.unwrap_or_default();
             Err(JorttError::Http { status, body })
         }
     }
@@ -196,7 +196,7 @@ impl OAuthClient {
         client_secret: &str,
         scopes: &[Scope],
     ) -> Result<TokenSet, JorttError> {
-        let scope_value = scopes
+        let scope_value: String = scopes
             .iter()
             .map(Scope::as_str)
             .collect::<Vec<_>>()
@@ -216,8 +216,8 @@ impl OAuthClient {
         if response.status().is_success() {
             Ok(response.json::<TokenSet>().await?)
         } else {
-            let status = response.status();
-            let body = response.text().await.unwrap_or_default();
+            let status: reqwest::StatusCode = response.status();
+            let body: String = response.text().await.unwrap_or_default();
             Err(JorttError::Http { status, body })
         }
     }
